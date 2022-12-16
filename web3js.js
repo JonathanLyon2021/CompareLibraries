@@ -16,7 +16,7 @@ const Web3 = require('web3');
 const rpcURL = 'https://cloudfare-eth.com/';
 const web3 =  new Web3(rpcURL);
 
-const abi = [{"constant":true,"inputs":[],"name":"mintingFinished","output"]
+const abi = [{"constant":true,"inputs":[],"name":"mintingFinished","output"] //THIS IS NOT the entire abi, which we DO have to import the whole thing!!!
 const address = "0x6B175474E89094C44Da98b954EedeAC495271d0F";
               
 const contract = new web3.ethContract(abi, address)

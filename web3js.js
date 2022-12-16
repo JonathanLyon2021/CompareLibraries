@@ -21,10 +21,10 @@ const address = "0x6B175474E89094C44Da98b954EedeAC495271d0F";
               
 const contract = new web3.ethContract(abi, address)
              
-contract.methods.totalSupply().call((err, result) => {console.log(result)})
-contract.methods.name().call((err, result) => {con sole.log(result) })
-contract.methods.
-contract.methods.
+contract.methods.totalSupply().call((err, result) => {console.log(result) })
+contract.methods.name().call((err, result) => {console.log(result) })
+contract.methods.symbol().call((err, result)  => {console.log(result) })
+contract.methods.balanceOf('0x73BCEb1Cd57C711feaC4224D062b0F6ff338501e').call((err, result)  => {console.log(result) })
              
              
 
